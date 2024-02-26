@@ -71,7 +71,7 @@
     height: 550px;
     padding: 0 80px;
     background-repeat: no-repeat;
-    background-image: url("./assets/images/other/main-model.jpg");
+    background-image: url("../assets/images/other/main-model.jpg");
     background-size: contain;
     background-position: left 10% top 30%;
     display: flex;
