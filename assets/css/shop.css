@@ -1,0 +1,30 @@
+.banner-container {
+    width: 100%;
+    background-color: black;
+    height: 33vh;
+    background-image: url("/assets/images/banners/shopping-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 23% right 0;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: peru;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.next-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.next-page a {
+    background-color: #088178;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    margin-right: 2px;
+    font-family: sans-serif;
+    color: aliceblue;
+    text-decoration: none;
+}

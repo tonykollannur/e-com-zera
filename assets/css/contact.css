@@ -1,0 +1,111 @@
+.container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+.container .forms {
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 100px;
+}
+.container .forms p:first-child {
+    font-size: small;
+    color: gray;
+}
+.container .forms p:nth-child(2) {
+    color: black;
+    font-size: 26px;
+    font-weight: 800;
+}
+.container .forms input {
+    width: 80%;
+    height: 60px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+.container .forms input:nth-child(6) {
+    height: 100px;
+}
+.container .forms input:last-child {
+    width: 80px;
+    height: 40px;
+    background-color: #088178;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 600;
+    padding: 0;
+    cursor: pointer;
+}
+.container .cust-service {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+.container .cust-service p:first-child {
+    font-weight: 600;
+}
+.container .cust-service .cust-cards {
+    width: 20rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgba(0, 0, 0, 0.518);
+    border-radius: 5px;
+}
+.container .cust-service .cust-cards img {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    object-fit: cover;
+}
+@media (max-width: 820px) {
+    .container {
+        height: auto;
+    }
+    .container .cust-service {
+        margin-top: 50px;
+    }
+    .container .cust-service .cust-cards {
+        margin-bottom: 25px;
+    }
+    .container .forms {
+        padding-left: 30px;
+        padding-right: 30px;
+
+        padding-top: 20px;
+        align-items: center;
+    }
+}
+@media (max-width: 612px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+    .container .cust-service {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .container .cust-service .cust-cards {
+        margin-bottom: 15px;
+    }
+    .container .forms {
+        padding-left: 30px;
+        padding-right: 30px;
+
+        padding-top: 20px;
+        align-items: center;
+    }
+}
